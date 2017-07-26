@@ -1,6 +1,7 @@
 cordova create news com.sscguruji.news NewsApplication
-cordova add platform getPlugins\android
-cordova add platform getPlugins\cordova-browser-master
+
+cordova platform add getPlugins\android
+cordova platform add getPlugins\cordova-browser-master
 
 
 cordova plugin add getPlugins\cordova-plugin-app-version-master
