@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="news-category">
+	<a ng-href="#/news/{{params.category}}/{{$index}}" class="list-group-item" ng-repeat="news in newsList">
+		<div class="media">
+			<div class="media-left">
+			  	<img ng-src="{{IMAGE_URL}}{{news.imgThumb1.__cdata}}">
+			</div>
+			<div class="media-body">
+				<p class="list-group-item-text">{{news.title.__cdata}}</p>
+			</div>
+		</div>
+	</a>
+  </div>
+	<ol class="breadcrumb text-capitalize">
+	  <li><a href="#/">home</a></li>
+	  <li><a href="#/news">news</a></li>
+	  <li class="active">{{params.category}}</li>
+	</ol>
+</div>

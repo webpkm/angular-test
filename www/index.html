@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="codeplaygrounds.news" id="top">
+  <head>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <meta charset="utf-8">
+    <meta name="description" content="AngularJS (Angular) native directives for Bootstrap. Small footprint (5kB gzipped!), no 3rd party JS dependencies (jQuery, bootstrap JS) required! Widgets: Accordion, Alert, Buttons, Carousel, Collapse, Dateparser, Datepicker, Datepicker Popup, Dropdown, Modal, Pager, Pagination, Popover, Position, Progressbar, Rating, Tabs, Timepicker, Tooltip, Typeahead, ">
+    <title>NEWS Application</title>
+    <link href="libs/bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/sidemenu.css"/>
+    <link rel="stylesheet" href="css/color-palette.css"/>
+    <link rel="stylesheet" href="css/overrides.css"/>
+    <link rel="stylesheet" href="css/animations.css"/>
+    <link rel="stylesheet" href="css/utility-classes.css"/>
+  </head>
+<body class="ng-cloak news-app-body" ng-controller="MainCtrl"  ng-class="{'side-nav-open' : sideMenuOpen}">
+	<div ng-include="'partials/header-bar.html'"></div>
+    <div class="container" id="container">
+    	<h2 ng-hide="true">There is some error, Please try again leter</h2>
+    	<div class="view-container">
+			<div ng-view class="view" autoscroll></div>
+		</div>
+    </div>
+    
+    <div ng-include="'partials/footer-bar.html'"></div>
+    
+    <div ng-include="'partials/side-menu.html'"></div>
+	
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+    <script type="text/javascript" src="libs/fastclick/0.6.7/fastclick.min.js"></script>
+    <script type="text/javascript" src="libs/angularjs/1.5.3/angular.min.js"></script>
+    <script type="text/javascript" src="libs/angularjs/1.5.3/angular-animate.min.js"></script>
+    <script type="text/javascript" src="libs/angularjs/1.5.3/angular-touch.min.js"></script>
+    <script type="text/javascript" src="libs/angularjs/1.5.3/angular-sanitize.js"></script>
+    <script type="text/javascript" src="libs/angularjs/1.5.3/angular-route.min.js"></script>
+    <script type="text/javascript" src="libs/ui-bootstrap/1.3.3/ui-bootstrap-tpls.min.js"></script>
+    <script type="text/javascript" src="libs/angularjs/smoothscroll-angular-custom.js"></script>
+    <script type="text/javascript" src="libs/xml2json.js"></script>
+    <!-- Applications JS Files -->
+    <script src="js/app.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/main-controller.js"></script>
+    <script src="js/controllers.js"></script>
+</body>
+</html>

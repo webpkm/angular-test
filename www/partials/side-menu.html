@@ -1,0 +1,19 @@
+<div id="side-nav" class="qp-ui-side-nav-drawer qp-ui-side-nav-drawer-nogpu qp-ui-side-nav-drawer-visible" ng-class="{'side-nav-open' : sideMenuOpen}" ng-click="toggleSideMenu()">
+	<div class="list-group">
+	  <a href="#/" class="list-group-item nbr active">Home</a>
+	  <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+	  <a href="#" class="list-group-item">Vestibulum at eros</a>
+	  <a href="#" class="list-group-item nbr">Cras justo odio</a>
+	  <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+	  <a href="#" class="list-group-item">Morbi leo risus</a>
+	  <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+	  <a href="#" class="list-group-item">Vestibulum at eros</a>
+	  <a href="#news" class="list-group-item">News</a>
+	  <a href="#feedback" class="list-group-item">Feedback</a>
+	  <a href="#about" class="list-group-item">About</a>
+	  <a href="#settings" class="list-group-item">Settings</a>
+	  <a href="#" class="list-group-item" ng-click="contactUs()">Contact Us</a>
+	  <a href="javascript:;" class="list-group-item" ng-click="shareApp()"><span class="glyphicon glyphicon-share-alt"></span> Share Application</a>
+	</div>
+</div>
+<div ng-if="sideMenuOpen" class="qp-ui-mask-modal qp-ui-mask-visible" ng-click="toggleSideMenu()" ></div>

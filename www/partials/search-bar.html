@@ -1,0 +1,4 @@
+<button class="btn btn-link " ng-click="showSearchInput = !showSearchInput" ng-hide="showSearchInput">
+	<span class="glyphicon glyphicon glyphicon-search"></span>
+</button>
+<input type="text" class="form-control input-sm" placeholder="Search for news" autofocus="true" ng-blur="showSearchInput = false" ng-show="showSearchInput">

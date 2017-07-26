@@ -1,0 +1,90 @@
+{
+    "cordova-plugin-app-version": {
+        "source": {
+            "type": "local",
+            "path": "getPlugins\\cordova-plugin-app-version-master"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-device": {
+        "source": {
+            "type": "local",
+            "path": "getPlugins\\cordova-plugin-device-master"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-dialogs": {
+        "source": {
+            "type": "local",
+            "path": "getPlugins\\cordova-plugin-dialogs-master"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-email-composer": {
+        "source": {
+            "type": "local",
+            "path": "getPlugins\\cordova-plugin-email-composer-master"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-inappbrowser": {
+        "source": {
+            "type": "local",
+            "path": "getPlugins\\cordova-plugin-inappbrowser-master"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-network-information": {
+        "source": {
+            "type": "local",
+            "path": "getPlugins\\cordova-plugin-network-information-master"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-splashscreen": {
+        "source": {
+            "type": "local",
+            "path": "getPlugins\\cordova-plugin-splashscreen-master"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-statusbar": {
+        "source": {
+            "type": "local",
+            "path": "getPlugins\\cordova-plugin-statusbar-master"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-x-socialsharing": {
+        "source": {
+            "type": "local",
+            "path": "getPlugins\\SocialSharing-PhoneGap-Plugin-master"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "es6-promise-plugin": {
+        "source": {
+            "type": "local",
+            "path": "getPlugins\\PromisesPlugin-master"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "local",
+            "path": "getPlugins\\cordova-plugin-whitelist-master"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

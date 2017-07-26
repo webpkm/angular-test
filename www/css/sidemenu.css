@@ -1,0 +1,105 @@
+#side-nav.qp-ui-side-nav-drawer-open {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+}
+
+#side-nav.qp-ui-side-nav-drawer-visible {
+    visibility: visible;
+}
+#side-nav.qp-ui-side-nav-drawer-nogpu {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+    left: -241px;
+}
+
+#side-nav {
+    border-right: 1px solid rgba(0,0,0,0.14);
+    bottom: 0;
+    background: #fff;
+    color: #333;
+    display: block;
+    font-family: "RobotoDraft","Roboto",sans-serif;
+    left: 0;
+    position: fixed;
+    top: 52px;
+    width: 240px;
+    z-index: 4;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition-delay: 0.1s;
+    -moz-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-property: -webkit-transform,left;
+    -moz-transition-property: -moz-transform,left;
+    transition-property: transform,left;
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    -moz-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.qp-ui-side-nav-drawer {
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.side-nav-wrapper {
+    padding-bottom: 80px;
+}
+
+.side-nav-wrapper {
+    min-height: 100%;
+    padding-bottom: 96px;
+    position: relative;
+}
+
+.qp-ui-mask-modal.qp-ui-mask-visible {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition-delay: 0;
+    -moz-transition-delay: 0;
+    transition-delay: 0;
+}
+
+.qp-ui-mask-modal {
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    left: 0;
+    opacity: 0.1;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+    z-index: 3;
+    position: fixed;
+    -webkit-transition: visibility 0 linear 0.4s,opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    -moz-transition: visibility 0 linear 0.4s,opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: visibility 0 linear 0.4s,opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+#side-nav.side-nav-open {
+    left: 0px;
+}
+body.side-nav-open {
+	overflow: hidden;
+}

@@ -1,0 +1,5 @@
+<div class="news-category mt-lg">
+	<div class="news-category-item c1" ng-class="'bgc'+{{index+2}}" ng-repeat="(index, news) in newsList">
+		<a ng-href="{{news.url}}">{{ news.title }}</a>
+	</div>
+</div>

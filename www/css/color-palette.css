@@ -1,0 +1,168 @@
+.color-blue-black, .c0 {
+	color: #000;
+}
+
+.color-white, .c1 {
+	color: #FFF;
+}
+
+.color-indigo, .c2 {
+	color: #3F51B5;
+}
+
+.color-red, .c3 {
+	color: #F44336;
+}
+
+.color-pink, .c4 {
+	color: #E91E63;
+}
+
+.color-purple, .c5 {
+	color: #9C27B0;
+}
+
+.color-deep-purple, .c6 {
+	color: #673AB7;
+}
+
+.color-blue, .c7 {
+	color: #2196F3;
+}
+
+.color-light-blue, .c8 {
+	color: #03A9F4;
+}
+
+.color-cyan, .c9 {
+	color: #00BCD4;
+}
+
+.color-teal, .c10 {
+	color: #009688;
+}
+
+.color-green, .c11 {
+	color: #4CAF50;
+}
+
+.color-light-green, .c12 {
+	color: #8BC34A;
+}
+
+.color-lime, .c13 {
+	color: #CDDC39;
+}
+
+.color-yellow, .c14 {
+	color: #4CAF50;
+}
+
+.color-amber, .c15 {
+	color: #8BC34A;
+}
+
+.color-orange, .c16 {
+	color: #CDDC39;
+}
+
+.color-deep-orange, .c17 {
+	color: #FF5722;
+}
+
+.color-brown, .c18 {
+	color: #795548;
+}
+
+.color-grey, .c19 {
+	color: #9E9E9E;
+}
+
+.color-blue-grey, .c20 {
+	color: #607D8B;
+}
+
+.bgcolor-blue-black, .bgc0 {
+	background-color: #000;
+}
+
+.bgcolor-white, .bgc1 {
+	background-color: #FFF;
+}
+
+.bgcolor-indigo, .bgc2 {
+	background-color: #3F51B5;
+}
+
+.bgcolor-red, .bgc3 {
+	background-color: #F44336;
+}
+
+.bgcolor-pink, .bgc4 {
+	background-color: #E91E63;
+}
+
+.bgcolor-purple, .bgc5 {
+	background-color: #9C27B0;
+}
+
+.bgcolor-deep-purple, .bgc6 {
+	background-color: #673AB7;
+}
+
+.bgcolor-blue, .bgc7 {
+	background-color: #2196F3;
+}
+
+.bgcolor-light-blue, .bgc8 {
+	background-color: #03A9F4;
+}
+
+.bgcolor-cyan, .bgc9 {
+	background-color: #00BCD4;
+}
+
+.bgcolor-teal, .bgc10 {
+	background-color: #009688;
+}
+
+.bgcolor-green, .bgc11 {
+	background-color: #4CAF50;
+}
+
+.bgcolor-light-green, .bgc12 {
+	background-color: #8BC34A;
+}
+
+.bgcolor-lime, .bgc13 {
+	background-color: #CDDC39;
+}
+
+.bgcolor-yellow, .bgc14 {
+	background-color: #4CAF50;
+}
+
+.bgcolor-amber, .bgc15 {
+	background-color: #8BC34A;
+}
+
+.bgcolor-orange, .bgc16 {
+	background-color: #CDDC39;
+}
+
+.bgcolor-deep-orange, .bgc17 {
+	background-color: #FF5722;
+}
+
+.bgcolor-brown, .bgc18 {
+	background-color: #795548;
+}
+
+.bgcolor-grey, .bgc19 {
+	background-color: #9E9E9E;
+}
+
+.bgcolor-blue-grey, .bgc20 {
+	background-color: #607D8B;
+}
+

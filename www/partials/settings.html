@@ -1,0 +1,19 @@
+<h2>Settings</h2>
+<h4 class="text-center">Font Size:</h4><br>
+
+<div class="row">
+	<div class="col-xs-8 col-xs-offset-2">
+		<div class="input-group input-group-lg">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button" ng-click="setMainFontSize('-')"><span class="glyphicon glyphicon-minus"></span></button>
+			</span> 
+			<input class="form-control" placeholder="Enter font size" ng-model="fontSize">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button" ng-click="setMainFontSize('+')"><span class="glyphicon glyphicon-plus"></span></button>
+			</span>
+		</div>
+	</div>
+</div>
+<div class="text-center mt-lg">
+	<button class="btn btn-success btn-lg" ng-click="saveSettings()">Save Settings</button>
+</div>
