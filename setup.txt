@@ -1,0 +1,18 @@
+cordova create news com.sscguruji.news NewsApplication
+cordova add platform getPlugins\android
+cordova add platform getPlugins\cordova-browser-master
+
+
+cordova plugin add getPlugins\cordova-plugin-app-version-master
+cordova plugin add getPlugins\cordova-plugin-device-master
+cordova plugin add getPlugins\cordova-plugin-dialogs-master
+cordova plugin add getPlugins\cordova-plugin-email-composer-master
+cordova plugin add getPlugins\cordova-plugin-inappbrowser-master
+cordova plugin add getPlugins\cordova-plugin-network-information-master
+cordova plugin add getPlugins\cordova-plugin-splashscreen-master
+cordova plugin add getPlugins\cordova-plugin-statusbar-master
+cordova plugin add getPlugins\SocialSharing-PhoneGap-Plugin-master
+cordova plugin add getPlugins\PromisesPlugin-master
+
+
+cordova platform add getPlugins\cordova-android-5.1.0
