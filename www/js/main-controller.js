@@ -79,9 +79,9 @@ CP.controller('MainCtrl', function($scope, $rootScope, $http, $document, $uibMod
 	};
 	$rootScope.navigateTo = function(url, isExternal) {
 		if(isExternal) {
-			window.location = url;
-		} else {
 			window.open(url, "_blank");
+		} else {
+			window.location = url;
 		}
 	};
 	$rootScope.checkMobileNetwork = function() {
