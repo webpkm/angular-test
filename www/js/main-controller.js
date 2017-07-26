@@ -77,6 +77,13 @@ CP.controller('MainCtrl', function($scope, $rootScope, $http, $document, $uibMod
 		    isHtml:  true
 		});
 	};
+	$rootScope.navigateTo = function(url, isExternal) {
+		if(isExternal) {
+			window.location = url;
+		} else {
+			window.open(url, "_blank");
+		}
+	};
 	$rootScope.checkMobileNetwork = function() {
 		var networkState = navigator.connection.type;
 		if(networkState === Connection.CELL_2G || networkState === Connection.CELL_3G || networkState === Connection.CELL_4G || networkState === Connection.CELL){
@@ -120,3 +127,8 @@ CP.controller('MainCtrl', function($scope, $rootScope, $http, $document, $uibMod
 			});
 	    }
 });
+
+function getScope() {
+    return angular.element($('body')).scope();
+}
+
